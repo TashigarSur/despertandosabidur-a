@@ -91,7 +91,7 @@ h6 {
   line-height: 1.2;
   margin: 0 0 20px;
   font-weight: 600;
-  text-transform:uppercase;
+  text-transform:capitalize;
 }
 h1,
 h2 {
@@ -171,7 +171,7 @@ video {
   line-height:52px;
   padding:0 35px;
   border-radius: 0px;
-  text-transform:uppercase;
+  text-transform:capitalize;
   font-weight:600;
   border:2px solid transparent;
   border-radius: 10px;
@@ -310,7 +310,7 @@ video {
 a#logo {
   text-decoration: none;
   font-size: 32px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
 }
 
@@ -406,7 +406,7 @@ a#logo {
 .welcome-first{
   font-size: 40px;
   display: block;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 300;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -445,7 +445,7 @@ a#logo {
 .next-section span {
   margin-top: 15px;
   display: block;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 14px;
   font-weight: 500;
 }
@@ -472,12 +472,12 @@ a#logo {
 }
 .about-contentbox span {
   font-size: 24px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 300;
 }
 .about-contentbox h2 {
   font-size: 32px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
 }
 .facts-list {
@@ -526,7 +526,7 @@ a#logo {
 }
 .title-block span {
   font-size: 24px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 300;
 }
 .services-list .item {
