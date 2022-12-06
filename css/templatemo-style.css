@@ -900,3 +900,132 @@ textarea.form-control {
 .check:checked::before{
   background:  #4096ee;
 }
+.siteFooterBar {
+	position: fixed;
+	bottom: 0;
+	padding-top: 10px;
+	width: 100%;
+	box-shadow: 0px 0px 25px rgb(207, 207, 207);
+	height: 100px;
+	color: #9B9B9B;
+	background: #F3F3F3;
+}
+
+.content {
+	display: block;
+	padding: 10px;
+	margin: 0px auto;
+	text-align: center;
+	font: 20px sovereign-2, "Times New Roman", Times, serif;
+	font-size: 12px;
+    width: 850px;
+}
+
+
+.footer-brand-logos {
+  margin: 0 auto;
+  width: 560px; 
+  height: 100px; 
+  text-align: justify;
+ 
+  background-color: rgba(250,250,250,0.25);
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer-brand-logos:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.footer-brand-logos * {
+  padding: 10;
+  margin: 20;
+}
+
+.footer-brand-logos img {
+  height: 56px;        
+}
+
+.footer-brand-logos a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 16px;
+  color: #fff;
+}
+
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+ 
+ 
+}
+
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+
+.socials a:hover i{
+  color: aqua;
+}
+@media (max-width:500px) {
+  .footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  }
