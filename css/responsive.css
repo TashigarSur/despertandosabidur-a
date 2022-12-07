@@ -429,3 +429,8 @@
 		left: 43%;
 	}
 }
+@media only screen and (max-width: 320px) {
+	.footer-menu ul {
+		display: none;
+	}
+}
